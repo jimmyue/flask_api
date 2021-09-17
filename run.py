@@ -36,4 +36,4 @@ def get_dealer(dealer_code):
     return json.dumps(result, ensure_ascii=False, indent=3)
 
 if __name__ == '__main__':
-    app.run(host='SERVICE_IP', port=5000)
+    app.run(host='0.0.0.0', port=5000)
